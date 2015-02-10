@@ -4,12 +4,15 @@ ASSEMBLER=$(CC) $(CFLAGS)
 LINKER=arm-none-eabi-gcc -ffreestanding -O2 -nostdlib
 SRC=src
 
-.SUFFIXES: .S .o .c
+.SUFFIXES: .S .o .c .list
 
 all: kernel.img
 
 .S.o:
 	$(ASSEMBLER) -o $@ $^
+
+.c.list:
+	$(CC) $(CFLAGS) -S -o $@ $^
 
 kernel.img: $(SRC)/boot.o $(SRC)/kernel.o
 	$(LINKER) -T $(SRC)/linker.ld -o kernel.elf $(SRC)/boot.o $(SRC)/kernel.o
