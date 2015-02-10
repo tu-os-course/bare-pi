@@ -18,7 +18,7 @@ void kernel_main(uint32_t r0, uint32_t r1, uint32_t atags)
   *gpio_fs4 |= (1 << 21);
 
   // turn on the OK led
-  // *gpio_ok |= (1 << 15);
+  *gpio_ok |= (1 << 15);
 
   halt();
 }
