@@ -5,8 +5,10 @@ For science
 ## Getting started
 
 You can compile the `kernel.img` using the makefile.
-Then you just have to copy that *image* and the standard *bootcode.bin* and *start.elf* from the raspberry pi firmware
-repository to the root of your FAT32 formatted micro SD. A tiny SD card will already suffice.
+Then you just have to copy that *image* and the standard *bootcode.bin* and *start.elf* from the 
+[raspberry pi firmware repository](https://github.com/raspberrypi/firmware/tree/master/boot)
+to the root of your FAT32 formatted micro SD.
+A tiny SD card will already suffice.
 
 The current code will make the OK Led on the board blink using the right GPIO pins.
 
