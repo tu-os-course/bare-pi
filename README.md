@@ -39,5 +39,5 @@ If you're a TU student and want to check this out, but you need some pointers: f
 
 I was thinking to:
 
-1) write C that enables UART communication, inspired by the code snippet in the osdev raspberry wiki (note: different model)
-2) start to implement bits of newlib C; a relatively easy to port C base library.
+1. write C that enables UART communication, inspired by the code snippet in the osdev raspberry wiki (note: different model)
+2. start to implement bits of newlib C; a relatively easy to port C base library.
