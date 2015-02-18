@@ -32,6 +32,9 @@ Examples of first year student's awesomeness:
 - [15.000 lines of assembly chess, anyone?](http://www.raspberrypi.org/chess-bare-metal-assembly-chess/)
 - [tetris duel, multiplayer... in assembly](http://hackaday.com/2014/06/29/tetris-duel-with-the-raspberry-pi/)
 
+If you're a TU student and want to check this out, but you need some pointers: feel free to contact me
+(or create an issue on this repo).
+
 ## Rough plans
 
 I was thinking to:
